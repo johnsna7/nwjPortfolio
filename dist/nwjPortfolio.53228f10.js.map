@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["document","body","textContent"],"mappings":";AAAAA,SAASC,KAAKC,YAAc","file":"nwjPortfolio.53228f10.js","sourceRoot":"..","sourcesContent":["document.body.textContent = \"Welcome to Nathan's Portfolio\";\n"]}
