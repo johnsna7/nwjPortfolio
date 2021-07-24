@@ -4,7 +4,7 @@
   "description": "Portfolio for Nathan Johnson",
   "main": "index.js",
   "scripts": {
-    "watch": "npx tailwindcss -o src/tailwind.css --watch",
+    "watch": "npx tailwindcss -o src/assets/css/tailwind.css --watch",
     "dev": "npx parcel src/index.html -d dev",
     "build": "npx parcel build src/index.html -d dist --no-minify"
   },
@@ -17,6 +17,9 @@
     "parcel-bundler": "^1.12.5",
     "postcss": "^8.3.6",
     "postcss-preset-env": "^6.7.0",
+    "posthtml-expressions": "^1.7.1",
+    "posthtml-include": "^1.7.1",
+    "posthtml-load-config": "^2.0.0",
     "prettier": "^2.3.2",
     "tailwindcss": "^2.2.7"
   }
