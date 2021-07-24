@@ -4,15 +4,20 @@
   "description": "Portfolio for Nathan Johnson",
   "main": "index.js",
   "scripts": {
-    "dev": "npx parcel src/index.html",  
+    "watch": "npx tailwindcss -o src/tailwind.css --watch",
+    "dev": "npx parcel src/index.html",
     "build": "npx parcel build src/index.html"
   },
   "author": "Nathan Johnson",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.3.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.31.0",
     "parcel-bundler": "^1.12.5",
-    "prettier": "^2.3.2"
+    "postcss": "^8.3.6",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.7"
   }
 }
