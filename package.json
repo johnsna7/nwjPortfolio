@@ -16,6 +16,7 @@
     "eslint": "^7.31.0",
     "parcel-bundler": "^1.12.5",
     "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
     "postcss-preset-env": "^6.7.0",
     "posthtml-expressions": "^1.7.1",
     "posthtml-include": "^1.7.1",
